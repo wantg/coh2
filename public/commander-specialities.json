@@ -1,0 +1,386 @@
+{
+    "1001":
+    {
+        "limit": 1,
+        "title": "Artillery Field Officer",
+        "note": "An Artillery Field Officer specializing in supporting troops is allocated to your command",
+        "title_zh": "野战炮指挥官",
+        "note_zh": "An Artillery Field Officer specializing in supporting troops is allocated to your command"
+    },
+    "1002":
+    {
+        "limit": 3,
+        "title": "Cargo Truck",
+        "note": "An Opel Blitz supply truck can ensure a greater return of resources from owned territories.",
+        "title_zh": "货车",
+        "note_zh": "An Opel Blitz supply truck can ensure a greater return of resources from owned territories."
+    },
+    "1003":
+    {
+        "limit": 6,
+        "title": "Strafing Run",
+        "note": "The JU-87D will use its two MG-17 machine guns to target enemy infantry and suppress them.",
+        "title_zh": "低空扫射",
+        "note_zh": "The JU-87D will use its two MG-17 machine guns to target enemy infantry and suppress them."
+    },
+    "1004":
+    {
+        "limit": 10,
+        "title": "Fragmentation Bomb",
+        "note": "High-explosive fragmentation bombs are dropped on the target location.",
+        "title_zh": "高爆炸弹",
+        "note_zh": "High-explosive fragmentation bombs are dropped on the target location."
+    },
+    "1005":
+    {
+        "limit": 13,
+        "title": "Tiger Tank",
+        "note": "Allows the requisition of the Tiger Heavy Tank to the battlefield.",
+        "title_zh": "虎式",
+        "note_zh": "Allows the requisition of the Tiger Heavy Tank to the battlefield."
+    },
+    "1006":
+    {
+        "limit": 2,
+        "title": "Panzer Tactician",
+        "note": "All armored vehicles use their equipped smoke dischargers to prevent themselves from being seen.",
+        "title_zh": "装甲策略",
+        "note_zh": "All armored vehicles use their equipped smoke dischargers to prevent themselves from being seen."
+    },
+    "1007":
+    {
+        "limit": 4,
+        "title": "Tactical Movement",
+        "note": "All infantry are ordered to move at their fastest available speed for the duration of the ability. Does not affect anti-tank gun squads.",
+        "title_zh": "战术移动",
+        "note_zh": "All infantry are ordered to move at their fastest available speed for the duration of the ability. Does not affect anti-tank gun squads."
+    },
+    "1008":
+    {
+        "limit": 4,
+        "title": "Reconnaissance Overflight",
+        "note": "Available aircraft will make a reconnaissance pass on the targeted location to reveal enemy forces.",
+        "title_zh": "高空侦察",
+        "note_zh": "Available aircraft will make a reconnaissance pass on the targeted location to reveal enemy forces."
+    },
+    "1009":
+    {
+        "limit": 9,
+        "title": "Command Tank",
+        "note": "A command tank that improves nearby forces can be deployed to the battlefield.",
+        "title_zh": "指挥员坦克",
+        "note_zh": "A command tank that improves nearby forces can be deployed to the battlefield."
+    },
+    "1010":
+    {
+        "limit": 12,
+        "title": "Stuka Close Air Support",
+        "note": "A Stuka JU-87 will patrol the designated area, targeting enemy units with heavy 37mm cannons.",
+        "title_zh": "Stuka 支援",
+        "note_zh": "A Stuka JU-87 will patrol the designated area, targeting enemy units with heavy 37mm cannons."
+    },
+    "1011":
+    {
+        "limit": 2,
+        "title": "Stuka Reconnaissance Pass",
+        "note": "Available aircraft will make a reconnaissance pass on the targeted location to reveal enemy forces.",
+        "title_zh": "Stuka 侦察",
+        "note_zh": "Available aircraft will make a reconnaissance pass on the targeted location to reveal enemy forces."
+    },
+    "1012":
+    {
+        "limit": 3,
+        "title": "Supply Drop Zone",
+        "note": "Cargo planes will fly over a designated Fuel or Munitions point, dropping off resource crates that can be recovered by infantry.",
+        "title_zh": "空投补给",
+        "note_zh": "Cargo planes will fly over a designated Fuel or Munitions point, dropping off resource crates that can be recovered by infantry."
+    },
+    "1013":
+    {
+        "limit": 6,
+        "title": "Stuka JU-87D Anti-Infantry Strafe",
+        "note": "Stuka JU-87D will strafe the target location with its powerful 7.92mm MG 17 machine guns.",
+        "title_zh": "扫射步兵",
+        "note_zh": "Stuka JU-87D will strafe the target location with its powerful 7.92mm MG 17 machine guns."
+    },
+    "1014":
+    {
+        "limit": 10,
+        "title": "Stuka JU-87 Anti-Tank Strafe",
+        "note": "Stuka JU-87 will strafe the target location with its powerful 37mm cannons.",
+        "title_zh": "扫射坦克",
+        "note_zh": "Stuka JU-87 will strafe the target location with its powerful 37mm cannons."
+    },
+    "1015":
+    {
+        "limit": 12,
+        "title": "Stuka Bombing Strike",
+        "note": "A JU-87D Stuka will dive in and drop a 50kg bomb on the target location. Capture points are neutralized if hit.",
+        "title_zh": "Stuka 轰炸",
+        "note_zh": "A JU-87D Stuka will dive in and drop a 50kg bomb on the target location. Capture points are neutralized if hit."
+    },
+    "1016":
+    {
+        "limit": 2,
+        "title": "Defensive Fortifications",
+        "note": "Allows Pioneers to construct Tank Traps.",
+        "title_zh": "防御工事",
+        "note_zh": "Allows Pioneers to construct Tank Traps."
+    },
+    "1017":
+    {
+        "limit": 2,
+        "title": "Trench",
+        "note": "Allows German infantry to dig defensive trenchs.",
+        "title_zh": "挖掘战壕",
+        "note_zh": "Allows German infantry to dig defensive trenchs."
+    },
+    "1018":
+    {
+        "limit": 5,
+        "title": "Hull Down",
+        "note": "Pioneers, Grenadiers and Panzer Grenadiers are able to set German armor in an immobile Hull Down position, increasing defenses and damage.",
+        "title_zh": "装甲加固",
+        "note_zh": "Pioneers, Grenadiers and Panzer Grenadiers are able to set German armor in an immobile Hull Down position, increasing defenses and damage."
+    },
+    "1019":
+    {
+        "limit": 8,
+        "title": "Pak 43 Emplacement",
+        "note": "Pioneers and Sturmpioneers are able to construct powerful Pak 43 88mm anti-tank emplacements.",
+        "title_zh": "Pak 43 阵地",
+        "note_zh": "Pioneers and Sturmpioneers are able to construct powerful Pak 43 88mm anti-tank emplacements."
+    },
+    "1020":
+    {
+        "limit": 12,
+        "title": "Sector Artillery",
+        "note": "Enemy units entering a targeted sector are barraged with 10.5cm artillery.",
+        "title_zh": "扇形炮击",
+        "note_zh": "Enemy units entering a targeted sector are barraged with 10.5cm artillery."
+    },
+    "1021":
+    {
+        "limit": 1,
+        "title": "Model 24 Stun Grenades",
+        "note": "Grenadiers, Panzer Grenadiers, and Stormtroopers can throw Model 24 stun grenades, which will stun enemy infantry.",
+        "title_zh": "眩晕手雷",
+        "note_zh": "Grenadiers, Panzer Grenadiers, and Stormtroopers can throw Model 24 stun grenades, which will stun enemy infantry."
+    },
+    "1022":
+    {
+        "limit": 1,
+        "title": "Jaeger Light Infantry Upgrade",
+        "note": "Grenadiers, Panzer Grenadiers, and Stormtroopers can be upgraded with this package which adds two G43 rifles and includes training in interrogation.",
+        "title_zh": "神射手升级",
+        "note_zh": "Grenadiers, Panzer Grenadiers, and Stormtroopers can be upgraded with this package which adds two G43 rifles and includes training in interrogation."
+    },
+    "1023":
+    {
+        "limit": 2,
+        "title": "Stormtrooper",
+        "note": "Elite infiltration troops who are experts at disrupting enemy supply lines. These units can be deployed from any ambient building.",
+        "title_zh": "突击队",
+        "note_zh": "Elite infiltration troops who are experts at disrupting enemy supply lines. These units can be deployed from any ambient building."
+    },
+    "1024":
+    {
+        "limit": 17,
+        "title": "Tiger Ace",
+        "note": "High command sends in a legendary Tiger Ace. Only one is available, once deployed fuel income will be reduced by 90% and manpower will be reduced by 25% until the Tiger Ace is destroyed.",
+        "title_zh": "王牌虎式",
+        "note_zh": "High command sends in a legendary Tiger Ace. Only one is available, once deployed fuel income will be reduced by 90% and manpower will be reduced by 25% until the Tiger Ace is destroyed."
+    },
+    "1025":
+    {
+        "limit": 0,
+        "title": "Sprint",
+        "note": "Allows German infantry to use the Sprint ability. Increaseing movement speed for a short period of time.",
+        "title_zh": "冲刺",
+        "note_zh": "Allows German infantry to use the Sprint ability. Increaseing movement speed for a short period of time."
+    },
+    "1026":
+    {
+        "limit": 7,
+        "title": "Break Supply Line",
+        "note": "Send in a Stuka bomber to neutralize a targeted point with a precision strike, causing the territory to shift into a neutralize state.",
+        "title_zh": "切断补给线",
+        "note_zh": "Send in a Stuka bomber to neutralize a targeted point with a precision strike, causing the territory to shift into a neutralize state."
+    },
+    "1027":
+    {
+        "limit": 9,
+        "title": "Breakthrough",
+        "note": "Slightly improves the speed of all vehicle units and allows them to decapture point very rapidly.",
+        "title_zh": "突破",
+        "note_zh": "Slightly improves the speed of all vehicle units and allows them to decapture point very rapidly."
+    },
+    "1028":
+    {
+        "limit": 12,
+        "title": "Close the Pocket",
+        "note": "Artillery zeros in on isolated enemy units to destroy them. Automatically attack all cut off enemy territories and frontline territories.",
+        "title_zh": "关闭包围网",
+        "note_zh": "Artillery zeros in on isolated enemy units to destroy them. Automatically attack all cut off enemy territories and frontline territories."
+    },
+    "1029":
+    {
+        "limit": 12,
+        "title": "Railway Artillery Support",
+        "note": "Off-map railway artillery will fire three large caliber shells at the designated target.",
+        "title_zh": "列车炮支援",
+        "note_zh": "Off-map railway artillery will fire three large caliber shells at the designated target."
+    },
+    "1030":
+    {
+        "limit": 2,
+        "title": "SdKfz 250/7 Mortar Half-track",
+        "note": "The SdKfz 250/7 Mortar Half-track with its 8cm mortar can provide vital battlefield support for infantry forces.",
+        "title_zh": "半履带迫击炮车",
+        "note_zh": "The SdKfz 250/7 Mortar Half-track with its 8cm mortar can provide vital battlefield support for infantry forces."
+    },
+    "1031":
+    {
+        "limit": 4,
+        "title": "Smoke Bombs",
+        "note": "Large smoke pots are dropped on the battlefield, blocking line of sight.",
+        "title_zh": "烟雾轰炸",
+        "note_zh": "Large smoke pots are dropped on the battlefield, blocking line of sight."
+    },
+    "1032":
+    {
+        "limit": 6,
+        "title": "Relief Infantry",
+        "note": "Command releases reserve infantry to replace losses suffered during combat. Forces will be replaced with Ostruppen Infantry.",
+        "title_zh": "兵源补充",
+        "note_zh": "Command releases reserve infantry to replace losses suffered during combat. Forces will be replaced with Ostruppen Infantry."
+    },
+    "1033":
+    {
+        "limit": 8,
+        "title": "leFH 18 Artillery",
+        "note": "This light 10.5cm Field Howitzer doesn’t have the destructive power of some Soviet artillery, but it counters with a good rate of fire and reasonably long range.",
+        "title_zh": "105mm榴弹炮",
+        "note_zh": "This light 10.5cm Field Howitzer doesn’t have the destructive power of some Soviet artillery, but it counters with a good rate of fire and reasonably long range."
+    },
+    "1034":
+    {
+        "limit": 14,
+        "title": "Elefant Tank Destroyer",
+        "note": "Allows the requisition of the Elefant Tank Destroyer to the battlefield.",
+        "title_zh": "象式",
+        "note_zh": "Allows the requisition of the Elefant Tank Destroyer to the battlefield."
+    },
+    "1035":
+    {
+        "limit": 8,
+        "title": "Light Artillery Barrage",
+        "note": "A light artillery barrage from nearby 7.5 cm le.IG 18 infantry support guns can scatter enemy forces.",
+        "title_zh": "轻型弹幕轰炸",
+        "note_zh": "A light artillery barrage from nearby 7.5 cm le.IG 18 infantry support guns can scatter enemy forces."
+    },
+    "1036":
+    {
+        "limit": 3,
+        "title": "Mechanized Grenadier Group",
+        "note": "Deploys a Grenadier LMG squad in a 250 halftrack to the battlefield.",
+        "title_zh": "机械化掷弹兵",
+        "note_zh": "Deploys a Grenadier LMG squad in a 250 halftrack to the battlefield."
+    },
+    "1037":
+    {
+        "limit": 5,
+        "title": "Spotting Scope",
+        "note": "Vehicles can be equipped with spotting scopes that allow them to see farther when stationary.",
+        "title_zh": "望远镜",
+        "note_zh": "Vehicles can be equipped with spotting scopes that allow them to see farther when stationary."
+    },
+    "1038":
+    {
+        "limit": 2,
+        "title": "Half-track Riegel 43 Anti-Tank Mine",
+        "note": "Allows the SdKfz 251 to lay Riegel-43 heavy anti-tank mine.",
+        "title_zh": "反坦克地雷",
+        "note_zh": "Allows the SdKfz 251 to lay Riegel-43 heavy anti-tank mine."
+    },
+    "1039":
+    {
+        "limit": 1,
+        "title": "Ambush Camouflage",
+        "note": "Grenadiers, Panzer Grenadiers and HMGs can be upgraded with better camouflage, concealing them in cover or deep snow. Attacking enemy units while in camouflage will briefly increase their damage.",
+        "title_zh": "伏击伪装",
+        "note_zh": "Grenadiers, Panzer Grenadiers and HMGs can be upgraded with better camouflage, concealing them in cover or deep snow. Attacking enemy units while in camouflage will briefly increase their damage."
+    },
+    "1040":
+    {
+        "limit": 0,
+        "title": "Air-Dropped Medical Supplies",
+        "note": "Paradrop medical supplies at a target area. Heals and inspires nearby units when picked up.",
+        "title_zh": "空投医疗用品",
+        "note_zh": "Paradrop medical supplies at a target area. Heals and inspires nearby units when picked up."
+    },
+    "1041":
+    {
+        "limit": 6,
+        "title": "Incendiary Bombing Run",
+        "note": "A Stuka will drop incendiary bombs on the target location.",
+        "title_zh": "燃烧弹",
+        "note_zh": "A Stuka will drop incendiary bombs on the target location."
+    },
+    "1042":
+    {
+        "limit": 0,
+        "title": "Assault Grenadiers",
+        "note": "Deploy Assault Grenadiers equipped with MP40 submachineguns and Model 24 grenades.",
+        "title_zh": "突击掷弹兵",
+        "note_zh": "Deploy Assault Grenadiers equipped with MP40 submachineguns and Model 24 grenades."
+    },
+    "1043":
+    {
+        "limit": 3,
+        "title": "Mechanized Assault Group",
+        "note": "Deploys a Panzer Grenadier squad in a 250 halftrack to the battlefield.",
+        "title_zh": "机械化步兵",
+        "note_zh": "Deploys a Panzer Grenadier squad in a 250 halftrack to the battlefield."
+    },
+    "1044":
+    {
+        "limit": 7,
+        "title": "StuG III Ausf. E Assault Gun",
+        "note": "Allows the requisition of the StuG III Ausf. E Assault Gun onto the battlefield.",
+        "title_zh": "三号突击炮E",
+        "note_zh": "Allows the requisition of the StuG III Ausf. E Assault Gun onto the battlefield."
+    },
+    "1045":
+    {
+        "limit": 0,
+        "title": "Counterattack Tactics",
+        "note": "Infantry units are trained to retake territory quickly. Neutral territory is captured more rapidly while active.",
+        "title_zh": "反击战术",
+        "note_zh": "Infantry units are trained to retake territory quickly. Neutral territory is captured more rapidly while active."
+    },
+    "1046":
+    {
+        "limit": 3,
+        "title": "Ostruppen Reserves",
+        "note": "Deploy reserves of Osttruppen previously stationed on the Western Front. These units vary in equipment.",
+        "title_zh": "西线东方营",
+        "note_zh": "Deploy reserves of Osttruppen previously stationed on the Western Front. These units vary in equipment."
+    },
+    "1047":
+    {
+        "limit": 5,
+        "title": "Sdkfz 234 'Puma' Armored Car",
+        "note": "Dispatch a Sdkfz 234 'Puma' Armored Car to the battlefield.",
+        "title_zh": "Puma装甲车",
+        "note_zh": "Dispatch a Sdkfz 234 'Puma' Armored Car to the battlefield."
+    },
+    "1048":
+    {
+        "limit": 0,
+        "title": "Osttruppen Squad",
+        "note": "Deploy weak but numerous Osttruppen infantry to the battlefield.",
+        "title_zh": "东方营",
+        "note_zh": "Deploy weak but numerous Osttruppen infantry to the battlefield."
+    }
+}

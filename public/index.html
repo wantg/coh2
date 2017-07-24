@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>COH2 Info</title>
+    <link rel="stylesheet" href="/node_modules/materialize-css/dist/css/materialize.min.css">
+    <link rel="stylesheet" href="/material-design-icons-iconfont/material-icons.css">
+    <!-- <link href="./stylesheets/common.css" rel="stylesheet" /> -->
+</head>
+
+<body>
+    <style>
+    body {
+        background-color: #0b0b0b;
+    }
+    #modal-commander .specialities>.collection-item {
+        background-color: #0b0b0b;
+        color:white;
+        padding-left: 10px;
+    }
+    #modal-commander img.speciality {
+        position: absolute;;
+        height: 48px;
+        padding-right: 10px;
+    }
+    #modal-commander .speciality-title {
+        padding-left: 54px;
+        white-space: nowrap1;
+    }
+    #modal-commander .speciality-note {
+        padding-left: 54px;
+        white-space: nowrap1;
+    }
+
+    #commanders-container {
+        overflow-x: auto;
+        overflow-y: hidden;
+        height: 180px;
+        padding-top: 10px;
+    }
+
+    #commanders-box {
+        width: 3000px;
+    }
+
+    div.commander-container img {
+        max-width: 103px;
+    }
+
+    div.commander-container h6 {
+        text-align: center;
+        color: white;
+        font-size: 12px;
+        white-space: nowrap;
+        overflow: hidden;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    div.commander-speciality-container {
+        position: relative;
+    }
+    div.commander-speciality-container .check-trigger {
+        position: absolute;
+        right: 6px;
+        top: -4px;
+    }
+
+    #commander-specialities-container {
+        position: fixed;
+        top: 170px;
+        bottom: 0px;
+        overflow-y: auto;
+        margin-bottom: 10px;
+        padding-top: 10px;
+    }
+    div.commander-speciality-container img {
+        max-width: 100%;
+    }
+
+    div.commander-speciality-container h6 {
+        text-align: center;
+        color: white;
+        font-size: 12px;
+        white-space: nowrap;
+        overflow: hidden;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    </style>
+    <div id="commanders-container">
+        <div id="commanders-box" class="row"></div>
+    </div>
+    <div id="commander-specialities-container" class="row"></div>
+    <div id="modal-commander" class="modal">
+        <div class="modal-content">
+            <h5 class="title"></h5>
+            <h5 class="title_zh"></h5>
+            <p class="note"></p>
+            <p class="note_zh"></p>
+            <ul class="collection specialities"></ul>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">好的</a>
+        </div>
+    </div>
+    <div id="modal-commander-speciality" class="modal">
+        <div class="modal-content">
+            <h5 class="title"></h5>
+            <h5 class="title_zh"></h5>
+            <p class="note"></p>
+            <p class="note_zh"></p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">好的</a>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="/node_modules/materialize-css/dist/js/materialize.min.js"></script>
+    <script>
+    let commanders = {};
+    let commanderSpecialities = {};
+
+    function showCommanderInfo(el){
+        const id = $(el).data('id');
+        const commander = commanders[id];
+        // console.log(commander);
+        if (commander) {
+            const modal = $('#modal-commander');
+            modal.find('.title').html(commander.title);
+            modal.find('.title_zh').html(commander.title_zh);
+            modal.find('.note').html(commander.note);
+            modal.find('.note_zh').html(commander.note_zh);
+            modal.find('.specialities').empty();
+            for(let sId of commander.specialities){
+                const speciality = commanderSpecialities[sId];
+                modal.find('.specialities').append(`
+                    <li class="collection-item">
+                        <img class="speciality" src="/images/commander-speciality-${sId}.jpg" />
+                        <div class="speciality-title">
+                            <h6>${speciality.title_zh}</h6>
+                        </div>
+                        <div class="speciality-note">
+                            ${speciality.note_zh}
+                        </div>
+                    </li>
+                `);
+            }
+            modal.modal('open');
+        }
+    }
+    function showCommanderSpecialityInfo(el){
+        const id = $(el).parent().data('id');
+        const commanderSpeciality = commanderSpecialities[id];
+        // console.log(commanderSpeciality);
+        if (commanderSpeciality) {
+            const modal = $('#modal-commander-speciality');
+            modal.find('.title').html(commanderSpeciality.title);
+            modal.find('.title_zh').html(commanderSpeciality.title_zh);
+            modal.find('.note').html(commanderSpeciality.note);
+            modal.find('.note_zh').html(commanderSpeciality.note_zh);
+            modal.modal('open');
+        }
+    }
+    function checkCommanderSpeciality(el){
+        const specialityId = $(el).parent().data('id');
+        if($(el).hasClass('unselected')){
+            $(el).addClass('white-text text-darken-4 selected');
+            $(el).removeClass('unselected grey-text');
+            $(el).html('my_location');
+        } else {
+            $(el).removeClass('white-text text-darken-4 selected');
+            $(el).addClass('unselected grey-text');
+            $(el).html('lens');
+        }
+        const selectedSpecialityIdList = [];
+        $('i.check-trigger.selected').each((idx, c)=>{
+            selectedSpecialityIdList.push($(c).parent().data('id'));
+        });
+        // console.log(selectedSpecialityIdList);
+        if(selectedSpecialityIdList.length==0){
+            $('#commanders-box>div').addClass('show').show();
+        } else {
+            $('#commanders-box>div').removeClass('show').hide();
+            for(let selectedSpecialityId of selectedSpecialityIdList){
+                $('#commanders-box>div').each((idx,c)=>{
+                    const commanderContainer = $(c);
+                    const commander = commanders[commanderContainer.data('id')];
+                    if(commander.specialities.indexOf(selectedSpecialityId)>-1){
+                        commanderContainer.addClass('show');
+                        commanderContainer.show();
+                    }
+                });
+            }
+        }
+        $('#commanders-box').width($('#commanders-box>div.show').length * 124);
+    }
+
+    function initView() {
+        for (let commanderId in commanders) {
+            const commander = commanders[commanderId];
+            $('#commanders-box').append(`
+                <div class="col commander-container show" data-id="${commanderId}" onclick="showCommanderInfo(this)">
+                    <img class="commander" src="/images/commander-avatar-${commanderId}.jpg" />
+                    <h6>${commander.title_zh}</h6>
+                </div>
+            `);
+            $('#commanders-box').width($('#commanders-box>div.show').length * 124);
+        }
+        for (let specialityId in commanderSpecialities) {
+            const speciality = commanderSpecialities[specialityId];
+            $('#commander-specialities-container').append(`
+                <div class="col s3 commander-speciality-container" data-id="${specialityId}">
+                    <i class="material-icons small grey-text check-trigger unselected" onclick="checkCommanderSpeciality(this)">lens</i>
+                    <div onclick="showCommanderSpecialityInfo(this)">
+                        <img class="commander-speciality" src="/images/commander-speciality-${specialityId}.jpg" />
+                        <h6>${speciality.title_zh}</h6>
+                    </div>
+                </div>
+            `);
+        }
+    }
+    $.get('./commanders.json', function(respData) {
+        commanders = JSON.parse(respData);
+        $.get('./commander-specialities.json', function(respData) {
+            commanderSpecialities = JSON.parse(respData);
+            // console.log(commanders);
+            initView();
+        });
+    });
+    $('.modal').modal();
+    </script>
+</body>
+
+</html>
