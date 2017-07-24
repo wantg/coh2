@@ -153,6 +153,7 @@
                 `);
             }
             modal.modal('open');
+            modal.scrollTop(0);
         }
     }
     function showCommanderSpecialityInfo(el){
@@ -166,6 +167,7 @@
             modal.find('.note').html(commanderSpeciality.note);
             modal.find('.note_zh').html(commanderSpeciality.note_zh);
             modal.modal('open');
+            modal.scrollTop(0);
         }
     }
     function checkCommanderSpeciality(el){
