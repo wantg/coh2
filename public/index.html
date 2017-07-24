@@ -15,25 +15,6 @@
     <style>
     body {
         background-color: #0b0b0b;
-        -webkit-overflow-scrolling : touch;
-    }
-    #modal-commander .specialities>.collection-item {
-        background-color: #0b0b0b;
-        color:white;
-        padding-left: 10px;
-    }
-    #modal-commander img.speciality {
-        position: absolute;;
-        height: 48px;
-        padding-right: 10px;
-    }
-    #modal-commander .speciality-title {
-        padding-left: 54px;
-        white-space: nowrap1;
-    }
-    #modal-commander .speciality-note {
-        padding-left: 54px;
-        white-space: nowrap1;
     }
 
     #commanders-container {
@@ -41,6 +22,7 @@
         overflow-y: hidden;
         height: 180px;
         padding-top: 10px;
+        -webkit-overflow-scrolling : touch;
     }
 
     #commanders-box {
@@ -70,12 +52,13 @@
     }
 
     #commander-specialities-container {
-        position: absolute;
+        position: fixed;
         top: 170px;
         bottom: 0px;
         overflow-y: auto;
         margin-bottom: 10px;
         padding-top: 10px;
+        -webkit-overflow-scrolling : touch;
     }
     div.commander-speciality-container img {
         max-width: 100%;
@@ -89,6 +72,25 @@
         overflow: hidden;
         margin-top: 0px;
         margin-bottom: 20px;
+    }
+
+    #modal-commander .specialities>.collection-item {
+        background-color: #0b0b0b;
+        color:white;
+        padding-left: 10px;
+    }
+    #modal-commander img.speciality {
+        position: absolute;;
+        height: 48px;
+        padding-right: 10px;
+    }
+    #modal-commander .speciality-title {
+        padding-left: 54px;
+        white-space: nowrap1;
+    }
+    #modal-commander .speciality-note {
+        padding-left: 54px;
+        white-space: nowrap1;
     }
     </style>
     <div id="commanders-container">
