@@ -224,9 +224,9 @@
         }
     }
     $.get('./commanders.json', function(respData) {
-        commanders = respData;
+        commanders = (typeof(respData)==typeof(''))? JSON.parse(respData) : respData;
         $.get('./commander-specialities.json', function(respData) {
-            commanderSpecialities = respData;
+            commanderSpecialities = (typeof(respData)==typeof(''))? JSON.parse(respData) : respData;
             // console.log(commanders);
             initView();
         });
