@@ -3,9 +3,9 @@
     {
         "limit": 1,
         "title": "Artillery Field Officer",
-        "intro": "An Artillery Field Officer specializing in supporting troops is allocated to your command",
+        "intro": "An Artillery Field Officer specializing in supporting troops is allocated to your command.",
         "title_zh": "野战炮指挥官",
-        "intro_zh": "An Artillery Field Officer specializing in supporting troops is allocated to your command"
+        "intro_zh": "An Artillery Field Officer specializing in supporting troops is allocated to your command."
     },
     "1002":
     {
