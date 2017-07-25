@@ -4,8 +4,8 @@
         "limit": 1,
         "title": "Artillery Field Officer",
         "intro": "An Artillery Field Officer specializing in supporting troops is allocated to your command.",
-        "title_zh": "野战炮指挥官",
-        "intro_zh": "An Artillery Field Officer specializing in supporting troops is allocated to your command."
+        "title_zh": "炮兵少校",
+        "intro_zh": "司令部来了一位擅长支援火力的炮兵军官."
     },
     "1002":
     {
@@ -13,7 +13,7 @@
         "title": "Cargo Truck",
         "intro": "An Opel Blitz supply truck can ensure a greater return of resources from owned territories.",
         "title_zh": "货车",
-        "intro_zh": "An Opel Blitz supply truck can ensure a greater return of resources from owned territories."
+        "intro_zh": "Opel Blitz 支援卡车可以从己方战区获得更多资源."
     },
     "1003":
     {
@@ -21,7 +21,7 @@
         "title": "Strafing Run",
         "intro": "The JU-87D will use its two MG-17 machine guns to target enemy infantry and suppress them.",
         "title_zh": "低空扫射",
-        "intro_zh": "The JU-87D will use its two MG-17 machine guns to target enemy infantry and suppress them."
+        "intro_zh": "JU-87D 用两门 MG-17 重机枪射击并压制敌方步兵."
     },
     "1004":
     {
@@ -29,7 +29,7 @@
         "title": "Fragmentation Bomb",
         "intro": "High-explosive fragmentation bombs are dropped on the target location.",
         "title_zh": "高爆炸弹",
-        "intro_zh": "High-explosive fragmentation bombs are dropped on the target location."
+        "intro_zh": "向目标区域投放数枚高爆碎片弹."
     },
     "1005":
     {
@@ -37,7 +37,7 @@
         "title": "Tiger Tank",
         "intro": "Allows the requisition of the Tiger Heavy Tank to the battlefield.",
         "title_zh": "虎式",
-        "intro_zh": "Allows the requisition of the Tiger Heavy Tank to the battlefield."
+        "intro_zh": "征用虎式重型坦克."
     },
     "1006":
     {
@@ -45,7 +45,7 @@
         "title": "Panzer Tactician",
         "intro": "All armored vehicles use their equipped smoke dischargers to prevent themselves from being seen.",
         "title_zh": "装甲策略",
-        "intro_zh": "All armored vehicles use their equipped smoke dischargers to prevent themselves from being seen."
+        "intro_zh": "所有装甲车辆都可以发射烟雾来隐藏自己."
     },
     "1007":
     {
@@ -53,7 +53,7 @@
         "title": "Tactical Movement",
         "intro": "All infantry are ordered to move at their fastest available speed for the duration of the ability. Does not affect anti-tank gun squads.",
         "title_zh": "战术移动",
-        "intro_zh": "All infantry are ordered to move at their fastest available speed for the duration of the ability. Does not affect anti-tank gun squads."
+        "intro_zh": "命令全体步兵短时间内以最快速度移动, 但不包括反坦克炮班."
     },
     "1008":
     {
@@ -61,7 +61,7 @@
         "title": "Reconnaissance Overflight",
         "intro": "Available aircraft will make a reconnaissance pass on the targeted location to reveal enemy forces.",
         "title_zh": "高空侦察",
-        "intro_zh": "Available aircraft will make a reconnaissance pass on the targeted location to reveal enemy forces."
+        "intro_zh": "我方空军飞过指定区域,确认敌军位置."
     },
     "1009":
     {
@@ -69,7 +69,7 @@
         "title": "Command Tank",
         "intro": "A command tank that improves nearby forces can be deployed to the battlefield.",
         "title_zh": "指挥员坦克",
-        "intro_zh": "A command tank that improves nearby forces can be deployed to the battlefield."
+        "intro_zh": "部署一辆指挥员坦克, 它可以提升附近陆军部队的战斗力."
     },
     "1010":
     {
@@ -77,7 +77,7 @@
         "title": "Stuka Close Air Support",
         "intro": "A Stuka JU-87 will patrol the designated area, targeting enemy units with heavy 37mm cannons.",
         "title_zh": "Stuka 支援",
-        "intro_zh": "A Stuka JU-87 will patrol the designated area, targeting enemy units with heavy 37mm cannons."
+        "intro_zh": "呼叫一架 Stuka JU-87 在目标区域巡逻, 用重型 37mm 航炮射击敌军."
     },
     "1011":
     {
@@ -85,7 +85,7 @@
         "title": "Stuka Reconnaissance Pass",
         "intro": "Available aircraft will make a reconnaissance pass on the targeted location to reveal enemy forces.",
         "title_zh": "Stuka 侦察",
-        "intro_zh": "Available aircraft will make a reconnaissance pass on the targeted location to reveal enemy forces."
+        "intro_zh": "我方空军飞过指定区域,确认敌军位置."
     },
     "1012":
     {
@@ -93,7 +93,7 @@
         "title": "Supply Drop Zone",
         "intro": "Cargo planes will fly over a designated Fuel or Munitions point, dropping off resource crates that can be recovered by infantry.",
         "title_zh": "空投补给",
-        "intro_zh": "Cargo planes will fly over a designated Fuel or Munitions point, dropping off resource crates that can be recovered by infantry."
+        "intro_zh": "呼叫运输机在指定的燃料或弹药补给点空投作战物资箱, 步兵可以进行回收."
     },
     "1013":
     {
@@ -101,7 +101,7 @@
         "title": "Stuka JU-87D Anti-Infantry Strafe",
         "intro": "Stuka JU-87D will strafe the target location with its powerful 7.92mm MG 17 machine guns.",
         "title_zh": "扫射步兵",
-        "intro_zh": "Stuka JU-87D will strafe the target location with its powerful 7.92mm MG 17 machine guns."
+        "intro_zh": "呼叫 Stuka JU-87D 用 7.92mm MG 17 重机枪扫射指定区域."
     },
     "1014":
     {
@@ -109,7 +109,7 @@
         "title": "Stuka JU-87 Anti-Tank Strafe",
         "intro": "Stuka JU-87 will strafe the target location with its powerful 37mm cannons.",
         "title_zh": "扫射坦克",
-        "intro_zh": "Stuka JU-87 will strafe the target location with its powerful 37mm cannons."
+        "intro_zh": "呼叫 Stuka JU-87 用 37mm 航炮扫射指定区域."
     },
     "1015":
     {
@@ -117,7 +117,7 @@
         "title": "Stuka Bombing Strike",
         "intro": "A JU-87D Stuka will dive in and drop a 50kg bomb on the target location. Capture points are neutralized if hit.",
         "title_zh": "Stuka 轰炸",
-        "intro_zh": "A JU-87D Stuka will dive in and drop a 50kg bomb on the target location. Capture points are neutralized if hit."
+        "intro_zh": "呼叫一架 JU-87D Stuka 在目标区域投掷一颗50公斤的炸弹, 如果击中被敌方夺走的据点, 该据点会变成中立."
     },
     "1016":
     {
@@ -125,7 +125,7 @@
         "title": "Defensive Fortifications",
         "intro": "Allows Pioneers to construct Tank Traps.",
         "title_zh": "防御工事",
-        "intro_zh": "Allows Pioneers to construct Tank Traps."
+        "intro_zh": "先遣队可以修筑坦克陷阱."
     },
     "1017":
     {
@@ -133,7 +133,7 @@
         "title": "Trench",
         "intro": "Allows German infantry to dig defensive trenchs.",
         "title_zh": "挖掘战壕",
-        "intro_zh": "Allows German infantry to dig defensive trenchs."
+        "intro_zh": "德军士兵都可以挖掘战壕."
     },
     "1018":
     {
@@ -141,7 +141,7 @@
         "title": "Hull Down",
         "intro": "Pioneers, Grenadiers and Panzer Grenadiers are able to set German armor in an immobile Hull Down position, increasing defenses and damage.",
         "title_zh": "装甲加固",
-        "intro_zh": "Pioneers, Grenadiers and Panzer Grenadiers are able to set German armor in an immobile Hull Down position, increasing defenses and damage."
+        "intro_zh": "先遣队, 掷弹兵和装甲掷弹兵可以加固德军装甲车辆, 增加防御力和攻击力."
     },
     "1019":
     {
@@ -149,15 +149,15 @@
         "title": "Pak 43 Emplacement",
         "intro": "Pioneers and Sturmpioneers are able to construct powerful Pak 43 88mm anti-tank emplacements.",
         "title_zh": "Pak 43 阵地",
-        "intro_zh": "Pioneers and Sturmpioneers are able to construct powerful Pak 43 88mm anti-tank emplacements."
+        "intro_zh": "先遣队和突击先遣队可以修筑坚固的 Pak 43 88mm 反坦克阵地."
     },
     "1020":
     {
         "limit": 12,
         "title": "Sector Artillery",
         "intro": "Enemy units entering a targeted sector are barraged with 10.5cm artillery.",
-        "title_zh": "扇形炮击",
-        "intro_zh": "Enemy units entering a targeted sector are barraged with 10.5cm artillery."
+        "title_zh": "炮击",
+        "intro_zh": "呼叫 105mm 火炮齐射进入目标区域的敌军."
     },
     "1021":
     {
@@ -165,7 +165,7 @@
         "title": "Model 24 Stun Grenades",
         "intro": "Grenadiers, Panzer Grenadiers, and Stormtroopers can throw Model 24 stun grenades, which will stun enemy infantry.",
         "title_zh": "眩晕手雷",
-        "intro_zh": "Grenadiers, Panzer Grenadiers, and Stormtroopers can throw Model 24 stun grenades, which will stun enemy infantry."
+        "intro_zh": "掷弹兵, 装甲掷弹兵 和 突击先遣队装备了 Model 24 眩晕手雷, 可以让敌军步兵陷入短时眩晕状态."
     },
     "1022":
     {
@@ -173,7 +173,7 @@
         "title": "Jaeger Light Infantry Upgrade",
         "intro": "Grenadiers, Panzer Grenadiers, and Stormtroopers can be upgraded with this package which adds two G43 rifles and includes training in interrogation.",
         "title_zh": "神射手升级",
-        "intro_zh": "Grenadiers, Panzer Grenadiers, and Stormtroopers can be upgraded with this package which adds two G43 rifles and includes training in interrogation."
+        "intro_zh": "掷弹兵, 装甲掷弹兵 和 突击先遣队可以升级换装两把 G43 半自动步枪."
     },
     "1023":
     {
@@ -181,7 +181,7 @@
         "title": "Stormtrooper",
         "intro": "Elite infiltration troops who are experts at disrupting enemy supply lines. These units can be deployed from any ambient building.",
         "title_zh": "突击队",
-        "intro_zh": "Elite infiltration troops who are experts at disrupting enemy supply lines. These units can be deployed from any ambient building."
+        "intro_zh": "突击队是渗透到敌军后方破坏补给线的专家. 他们可以从任何建筑物中部署."
     },
     "1024":
     {
@@ -189,7 +189,7 @@
         "title": "Tiger Ace",
         "intro": "High command sends in a legendary Tiger Ace. Only one is available, once deployed fuel income will be reduced by 90% and manpower will be reduced by 25% until the Tiger Ace is destroyed.",
         "title_zh": "王牌虎式",
-        "intro_zh": "High command sends in a legendary Tiger Ace. Only one is available, once deployed fuel income will be reduced by 90% and manpower will be reduced by 25% until the Tiger Ace is destroyed."
+        "intro_zh": "高级司令部派遣了一辆传说中的王牌虎式. 只有一辆, 投入战场后燃料收入将减少90%，人力将减少25%, 直到它被摧毁."
     },
     "1025":
     {
