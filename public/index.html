@@ -88,7 +88,7 @@
         padding-left: 54px;
         white-space: nowrap1;
     }
-    #modal-commander .speciality-note {
+    #modal-commander .speciality-intro {
         padding-left: 54px;
         white-space: nowrap1;
     }
@@ -101,8 +101,8 @@
         <div class="modal-content">
             <h5 class="title"></h5>
             <h5 class="title_zh"></h5>
-            <p class="note"></p>
-            <p class="note_zh"></p>
+            <p class="intro"></p>
+            <p class="intro_zh"></p>
             <ul class="collection specialities"></ul>
         </div>
         <div class="modal-footer">
@@ -113,8 +113,8 @@
         <div class="modal-content">
             <h5 class="title"></h5>
             <h5 class="title_zh"></h5>
-            <p class="note"></p>
-            <p class="note_zh"></p>
+            <p class="intro"></p>
+            <p class="intro_zh"></p>
         </div>
         <div class="modal-footer">
             <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">好的</a>
@@ -135,8 +135,8 @@
             const modal = $('#modal-commander');
             modal.find('.title').html(commander.title);
             modal.find('.title_zh').html(commander.title_zh);
-            modal.find('.note').html(commander.note);
-            modal.find('.note_zh').html(commander.note_zh);
+            modal.find('.intro').html(commander.intro);
+            modal.find('.intro_zh').html(commander.intro_zh);
             modal.find('.specialities').empty();
             for(let sId of commander.specialities){
                 const speciality = commanderSpecialities[sId];
@@ -146,8 +146,8 @@
                         <div class="speciality-title">
                             <h6>${speciality.title_zh}</h6>
                         </div>
-                        <div class="speciality-note">
-                            ${speciality.note_zh}
+                        <div class="speciality-intro">
+                            ${speciality.intro_zh}
                         </div>
                     </li>
                 `);
@@ -164,8 +164,8 @@
             const modal = $('#modal-commander-speciality');
             modal.find('.title').html(commanderSpeciality.title);
             modal.find('.title_zh').html(commanderSpeciality.title_zh);
-            modal.find('.note').html(commanderSpeciality.note);
-            modal.find('.note_zh').html(commanderSpeciality.note_zh);
+            modal.find('.intro').html(commanderSpeciality.intro);
+            modal.find('.intro_zh').html(commanderSpeciality.intro_zh);
             modal.modal('open');
             modal.scrollTop(0);
         }
