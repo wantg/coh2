@@ -197,7 +197,7 @@
         "title": "Sprint",
         "intro": "Allows German infantry to use the Sprint ability. Increaseing movement speed for a short period of time.",
         "title_zh": "冲刺",
-        "intro_zh": "Allows German infantry to use the Sprint ability. Increaseing movement speed for a short period of time."
+        "intro_zh": "允许德国步兵使用冲刺能力. 短时间内移动速度提升."
     },
     "1026":
     {
@@ -205,7 +205,7 @@
         "title": "Break Supply Line",
         "intro": "Send in a Stuka bomber to neutralize a targeted point with a precision strike, causing the territory to shift into a neutralize state.",
         "title_zh": "切断补给线",
-        "intro_zh": "Send in a Stuka bomber to neutralize a targeted point with a precision strike, causing the territory to shift into a neutralize state."
+        "intro_zh": "派遣一架斯图卡轰炸机对目标点进行精确打击和战术压制,使领土转变为中立状态."
     },
     "1027":
     {
@@ -213,7 +213,7 @@
         "title": "Breakthrough",
         "intro": "Slightly improves the speed of all vehicle units and allows them to decapture point very rapidly.",
         "title_zh": "突破",
-        "intro_zh": "Slightly improves the speed of all vehicle units and allows them to decapture point very rapidly."
+        "intro_zh": "小幅提升所有车辆单位的速度.从而能够更快的占领要点."
     },
     "1028":
     {
@@ -221,7 +221,7 @@
         "title": "Close the Pocket",
         "intro": "Artillery zeros in on isolated enemy units to destroy them. Automatically attack all cut off enemy territories and frontline territories.",
         "title_zh": "关闭包围网",
-        "intro_zh": "Artillery zeros in on isolated enemy units to destroy them. Automatically attack all cut off enemy territories and frontline territories."
+        "intro_zh": "炮兵瞄准孤立的地方单位进行摧毁. 对所有切断的敌方领土和前线领土进行自动攻击."
     },
     "1029":
     {
@@ -229,7 +229,7 @@
         "title": "Railway Artillery Support",
         "intro": "Off-map railway artillery will fire three large caliber shells at the designated target.",
         "title_zh": "列车炮支援",
-        "intro_zh": "Off-map railway artillery will fire three large caliber shells at the designated target."
+        "intro_zh": "图外铁路炮兵将向指定目标射击三回合大口径炮弹."
     },
     "1030":
     {
@@ -237,7 +237,7 @@
         "title": "SdKfz 250/7 Mortar Half-track",
         "intro": "The SdKfz 250/7 Mortar Half-track with its 8cm mortar can provide vital battlefield support for infantry forces.",
         "title_zh": "半履带迫击炮车",
-        "intro_zh": "The SdKfz 250/7 Mortar Half-track with its 8cm mortar can provide vital battlefield support for infantry forces."
+        "intro_zh": "国防军250/7半履带迫击炮车的8cm迫击炮弹可以为步兵部队提供重要的战场支援."
     },
     "1031":
     {
@@ -245,7 +245,7 @@
         "title": "Smoke Bombs",
         "intro": "Large smoke pots are dropped on the battlefield, blocking line of sight.",
         "title_zh": "烟雾轰炸",
-        "intro_zh": "Large smoke pots are dropped on the battlefield, blocking line of sight."
+        "intro_zh": "大量的烟幕弹砸落到战场，啥都看不见了."
     },
     "1032":
     {
@@ -253,7 +253,7 @@
         "title": "Relief Infantry",
         "intro": "Command releases reserve infantry to replace losses suffered during combat. Forces will be replaced with Ostruppen Infantry.",
         "title_zh": "兵源补充",
-        "intro_zh": "Command releases reserve infantry to replace losses suffered during combat. Forces will be replaced with Ostruppen Infantry."
+        "intro_zh": "命令后备役步兵取代战斗中遭受损失的部队，东方营混编部队参上！"
     },
     "1033":
     {
@@ -261,7 +261,7 @@
         "title": "leFH 18 Artillery",
         "intro": "This light 10.5cm Field Howitzer doesn’t have the destructive power of some Soviet artillery, but it counters with a good rate of fire and reasonably long range.",
         "title_zh": "105mm榴弹炮",
-        "intro_zh": "This light 10.5cm Field Howitzer doesn’t have the destructive power of some Soviet artillery, but it counters with a good rate of fire and reasonably long range."
+        "intro_zh": "这门轻型10.5cm费尔德榴弹炮虽没有苏制炮火的破坏力，但它具有良好的射击速度和相当长的射程."
     },
     "1034":
     {
@@ -269,7 +269,7 @@
         "title": "Elefant Tank Destroyer",
         "intro": "Allows the requisition of the Elefant Tank Destroyer to the battlefield.",
         "title_zh": "象式",
-        "intro_zh": "Allows the requisition of the Elefant Tank Destroyer to the battlefield."
+        "intro_zh": "允许象式坦克歼击车征用到战场."
     },
     "1035":
     {
@@ -277,7 +277,7 @@
         "title": "Light Artillery Barrage",
         "intro": "A light artillery barrage from nearby 7.5 cm le.IG 18 infantry support guns can scatter enemy forces.",
         "title_zh": "轻型弹幕轰炸",
-        "intro_zh": "A light artillery barrage from nearby 7.5 cm le.IG 18 infantry support guns can scatter enemy forces."
+        "intro_zh": "从附近的7.5cm le.IG 18步兵支援火炮发射弹幕.从而驱散敌军."
     },
     "1036":
     {
@@ -285,7 +285,7 @@
         "title": "Mechanized Grenadier Group",
         "intro": "Deploys a Grenadier LMG squad in a 250 halftrack to the battlefield.",
         "title_zh": "机械化掷弹兵",
-        "intro_zh": "Deploys a Grenadier LMG squad in a 250 halftrack to the battlefield."
+        "intro_zh": "部署一辆搭载轻机枪小队的国防军250半履带车抵达战场."
     },
     "1037":
     {
@@ -293,7 +293,7 @@
         "title": "Spotting Scope",
         "intro": "Vehicles can be equipped with spotting scopes that allow them to see farther when stationary.",
         "title_zh": "望远镜",
-        "intro_zh": "Vehicles can be equipped with spotting scopes that allow them to see farther when stationary."
+        "intro_zh": "车辆可以配备瞄准镜，使他们在静止时能看到更远的东西."
     },
     "1038":
     {
@@ -301,7 +301,7 @@
         "title": "Half-track Riegel 43 Anti-Tank Mine",
         "intro": "Allows the SdKfz 251 to lay Riegel-43 heavy anti-tank mine.",
         "title_zh": "反坦克地雷",
-        "intro_zh": "Allows the SdKfz 251 to lay Riegel-43 heavy anti-tank mine."
+        "intro_zh": "允许国防军251半履带车布设里格尔-43重型反坦克地雷."
     },
     "1039":
     {
@@ -309,7 +309,7 @@
         "title": "Ambush Camouflage",
         "intro": "Grenadiers, Panzer Grenadiers and HMGs can be upgraded with better camouflage, concealing them in cover or deep snow. Attacking enemy units while in camouflage will briefly increase their damage.",
         "title_zh": "伏击伪装",
-        "intro_zh": "Grenadiers, Panzer Grenadiers and HMGs can be upgraded with better camouflage, concealing them in cover or deep snow. Attacking enemy units while in camouflage will briefly increase their damage."
+        "intro_zh": "掷弹兵、装甲掷弹兵和重机枪班可以升级伪装，隐藏在厚厚的积雪下.伪装后攻击敌人目标单位会增加伤害."
     },
     "1040":
     {
@@ -317,7 +317,7 @@
         "title": "Air-Dropped Medical Supplies",
         "intro": "Paradrop medical supplies at a target area. Heals and inspires nearby units when picked up.",
         "title_zh": "空投医疗用品",
-        "intro_zh": "Paradrop medical supplies at a target area. Heals and inspires nearby units when picked up."
+        "intro_zh": "空投医疗用品在目标区域.附近的单位拾取时将得到治愈和激励."
     },
     "1041":
     {
@@ -325,7 +325,7 @@
         "title": "Incendiary Bombing Run",
         "intro": "A Stuka will drop incendiary bombs on the target location.",
         "title_zh": "燃烧弹",
-        "intro_zh": "A Stuka will drop incendiary bombs on the target location."
+        "intro_zh": "一架斯图卡轰炸机会对该目标位置投掷燃烧弹."
     },
     "1042":
     {
@@ -333,7 +333,7 @@
         "title": "Assault Grenadiers",
         "intro": "Deploy Assault Grenadiers equipped with MP40 submachineguns and Model 24 grenades.",
         "title_zh": "突击掷弹兵",
-        "intro_zh": "Deploy Assault Grenadiers equipped with MP40 submachineguns and Model 24 grenades."
+        "intro_zh": "部署突击掷弹兵装备MP40冲锋枪和Model 24手榴弹."
     },
     "1043":
     {
@@ -341,15 +341,15 @@
         "title": "Mechanized Assault Group",
         "intro": "Deploys a Panzer Grenadier squad in a 250 halftrack to the battlefield.",
         "title_zh": "机械化步兵",
-        "intro_zh": "Deploys a Panzer Grenadier squad in a 250 halftrack to the battlefield."
+        "intro_zh": "部署一辆搭载装甲掷弹兵小队的国防军250半履带车抵达战场."
     },
     "1044":
     {
         "limit": 7,
         "title": "StuG III Ausf. E Assault Gun",
         "intro": "Allows the requisition of the StuG III Ausf. E Assault Gun onto the battlefield.",
-        "title_zh": "三号突击炮E",
-        "intro_zh": "Allows the requisition of the StuG III Ausf. E Assault Gun onto the battlefield."
+        "title_zh": "三号突击炮E型",
+        "intro_zh": "允许征用三号突击炮E型抵达战场."
     },
     "1045":
     {
@@ -357,7 +357,7 @@
         "title": "Counterattack Tactics",
         "intro": "Infantry units are trained to retake territory quickly. Neutral territory is captured more rapidly while active.",
         "title_zh": "反击战术",
-        "intro_zh": "Infantry units are trained to retake territory quickly. Neutral territory is captured more rapidly while active."
+        "intro_zh": "通过战术训练的步兵单位可以迅速夺回领土.若是中立的领土则可以更迅速的夺回"
     },
     "1046":
     {
@@ -365,7 +365,7 @@
         "title": "Ostruppen Reserves",
         "intro": "Deploy reserves of Osttruppen previously stationed on the Western Front. These units vary in equipment.",
         "title_zh": "西线东方营",
-        "intro_zh": "Deploy reserves of Osttruppen previously stationed on the Western Front. These units vary in equipment."
+        "intro_zh": "部署已驻扎在西线的储备东方营.此单位装备各不相同."
     },
     "1047":
     {
@@ -373,7 +373,7 @@
         "title": "Sdkfz 234 'Puma' Armored Car",
         "intro": "Dispatch a Sdkfz 234 'Puma' Armored Car to the battlefield.",
         "title_zh": "Puma装甲车",
-        "intro_zh": "Dispatch a Sdkfz 234 'Puma' Armored Car to the battlefield."
+        "intro_zh": "调度 国防军234 “彪马” 装甲车抵达战场."
     },
     "1048":
     {
@@ -381,6 +381,6 @@
         "title": "Osttruppen Squad",
         "intro": "Deploy weak but numerous Osttruppen infantry to the battlefield.",
         "title_zh": "东方营",
-        "intro_zh": "Deploy weak but numerous Osttruppen infantry to the battlefield."
+        "intro_zh": "东方营の人海战术."
     }
 }
