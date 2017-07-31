@@ -47,8 +47,8 @@
     }
     div.commander-speciality-container .check-trigger {
         position: absolute;
-        right: -6px;
-        top: -6px;
+        right: 6px;
+        top: -4px;
     }
 
     #commander-specialities-container {
@@ -219,13 +219,9 @@
             const speciality = commanderSpecialities[specialityId];
             $('#commander-specialities-container').append(`
                 <div class="col s3 commander-speciality-container" data-id="${specialityId}">
+                    <i class="material-icons small grey-text check-trigger unselected" onclick="checkCommanderSpeciality(this)">lens</i>
                     <div onclick="showCommanderSpecialityInfo(this)">
-                        <div class="center-align">
-                            <span style="position:relative;display:inline-block;">
-                                <i class="material-icons small grey-text check-trigger unselected" onclick="checkCommanderSpeciality(this)">lens</i>
-                                <img class="commander-speciality" src="/images/commander-speciality-${specialityId}.jpg" />
-                            </span>
-                        </div>
+                        <img class="commander-speciality" src="/images/commander-speciality-${specialityId}.jpg" />
                         <h6>${speciality.title_zh}</h6>
                     </div>
                 </div>
